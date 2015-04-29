@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+
+body{
+	font-family: 'Pacifico', cursive;
+	color: black;
+	background-image: url("http://payload336.cargocollective.com/1/17/574234/9036103/DSC_1261_1250.jpg");
+	background-size: 1400px;
+	/*background-size: 100%;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.username{
+	margin-left: 512px;
+	margin-bottom: 30px;
+}
+
+.password{
+	margin-left: 512px;
+	margin-bottom: 30px;
+}
+
+.login{
+	margin-top: 20px;
+	margin-left: 625px;
+}
