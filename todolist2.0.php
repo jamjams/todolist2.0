@@ -5,20 +5,26 @@
 <html>
 	<head>
 		<title>-Jah'melah's To-Do List-</title>
+
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
+
 	<header>
-		<button type="button">
+		<audio controls>
+		  <source src="music/musicfortodo.mp3" type="audio/mpeg">
+		</audio>
+		<button type="button" class="registerbutton">
 			<a href="<?php echo $path. "register.php"?>">Register</a>
 		</button>
-		<button type="button">
+		<button type="button" class="loginbutton">
 			<a href="<?php echo $path. "login.php"?>">Login</a>
 		</button>
-		<button type="button">
+		<button type="button" class="logoutbutton">
 			<a href="<?php echo $path. "controller/logout-user.php"?>">Logout</a>
 		</button>
 	</header>
 	<body>
+
 		<div class="wrap">
 			<div class="task-list">
 				<ul>
@@ -42,13 +48,14 @@
 					?>
 				</ul>
 			</div>
-		<form class="add-new-task" autocomplete="off">
+		<form class="add-new-task" autocomplete="off"><center>
 			<input type="text" name="new-task" placeholder="Add new item..."/>
-		</form>
+		</center></form>
 		</div>
 	</body>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 
 <script>
 		add_task();
@@ -79,4 +86,5 @@
 		});
 });
 </script>
+
 </html>
